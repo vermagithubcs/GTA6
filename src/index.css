@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "PriceDown";
+    src: url('./image/pricedown.otf');
+}
+@font-face {
+    font-family: GTA6;
+    src: url('./image/gta6.woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow-x: hidden;
+    background-color: black;
+}
+.right .download{
+    padding: 20px 40px;
+    margin-top: 10px;
+}
