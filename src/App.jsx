@@ -181,18 +181,18 @@ const App = () => {
                 alt="GTA6"
               />
               <div className="textgta absolute flex flex-col gap-2 top-6 left-1/2 transform -translate-x-1/2">
-                <h1 className="text-[10rem] leading-none relative right-20 font-[PriceDown]">
+                <h1 className="text-[10rem] max-lg:text-[20vw] max-lg:top-40 leading-none relative right-20 font-[PriceDown]">
                   grand
                 </h1>
-                <h1 className="text-[10rem] leading-none font-[PriceDown] relative left-20">
+                <h1 className="text-[10rem] max-lg:text-[20vw] max-lg:top-40 leading-none font-[PriceDown] relative left-20">
                   theft
                 </h1>
-                <h1 className="text-[10rem] leading-none font-[PriceDown] relative right-20">
+                <h1 className="text-[10rem] max-lg:text-[20vw] max-lg:top-40 leading-none font-[PriceDown] relative right-20">
                   auto
                 </h1>
               </div>
               <img
-                className="absolute -bottom-[20%] top-0 left-1/2 scale-[0.7] transform -translate-x-1/2 object-cover"
+                className="absolute -bottom-[65%] max-lg:-bottom-[30%] max-md:-bottom-[20%] left-1/2 scale-[0.7] transform -translate-x-1/2 object-cover"
                 src={Girl}
                 alt="GTA Girl"
               />
@@ -229,17 +229,17 @@ const App = () => {
             </div>
           </div>
           <div className="third w-screen flex items-center justify-center h-screen bg-black">
-            <div className="cont w-full flex items-center justify-evenly h-[80%] relative top-1/2 transform -translate-y-1/2">
+            <div className="cont w-full flex max-lg:flex-col max-lg:h-screen items-center justify-evenly h-[80%] relative top-1/2 transform -translate-y-1/2">
               <div className="limage relative w-1/2 h-full">
                 <img
                   ref={imageRef}
-                  className="h-[30rem] absolute scale-[1.2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                  className="h-[40rem] max-lg:h-[30rem] absolute scale-[1.2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                   src={Gtaimage}
                   alt="GTA Image"
                 />
               </div>
               <div className="right">
-                <h1 className="text-4xl tracking-tight text-nowrap text-[#EA6D8B] font-[GTA6]">
+                <h1 className="textContent text-4xl max-lg:text-xl max-lg:text-wrap tracking-tight text-nowrap max-md:text-sm text-[#EA6D8B] font-[GTA6]">
                   Vice City, USA. <br /> Jason and Lucia have always known the
                   deck is stacked <br /> against them. But when an easy score
                   goes wrong, they <br />
@@ -250,7 +250,7 @@ const App = () => {
                   <br /> each other more than ever if they want to make it out
                   alive.
                 </h1>
-                <button className="text-3xl download uppercase text-black bg-yellow-300 cursor-pointer font-[PriceDown]">
+                <button className="text-3xl download uppercase text-black bg-yellow-300 max-lg:text-xl cursor-pointer font-[PriceDown]">
                   Download Now
                 </button>
               </div>
